@@ -1,0 +1,264 @@
+/* 
+          ______ _ _           __  __       _                               _ _ 
+    ____ |  ____| (_)         |  \/  |     | |                             | (_)
+   / __ \| |__  | |_  __ _ ___| \  / | __ _| |__  _ __ ___   ___  _   _  __| |_ 
+  / / _` |  __| | | |/ _` / __| |\/| |/ _` | '_ \| '_ ` _ \ / _ \| | | |/ _` | |
+ | | (_| | |____| | | (_| \__ \ |  | | (_| | | | | | | | | | (_) | |_| | (_| | |
+  \ \__,_|______|_|_|\__,_|___/_|  |_|\__,_|_| |_|_| |_| |_|\___/ \__,_|\__,_|_|
+   \____/                                                                      
+================================================================================ */
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/eot/Vazir.eot');
+    src: url('../fonts/eot/Vazir.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/woff2/Vazir.woff2') format('woff2'),
+         url('../fonts/woff/Vazir.woff') format('woff'),
+         url('../fonts/ttf/Vazir.ttf') format('truetype');
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: Vazir;
+    src: url('../fonts/eot/Vazir-Bold.eot');
+    src: url('../fonts/eot/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/woff2/Vazir-Bold.woff2') format('woff2'),
+         url('../fonts/woff/Vazir-Bold.woff') format('woff'),
+         url('../fonts/ttf/Vazir-Bold.ttf') format('truetype');
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: Vazir;
+    src: url('../fonts/eot/Vazir-Light.eot');
+    src: url('../fonts/eot/Vazir-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/woff2/Vazir-Light.woff2') format('woff2'),
+         url('../fonts/woff/Vazir-Light.woff') format('woff'),
+         url('../fonts/ttf/Vazir-Light.ttf') format('truetype');
+    font-weight: 300;
+  }
+  
+  @font-face {
+    font-family: Vazir;
+    src: url('../fonts/eot/Vazir-Medium.eot');
+    src: url('../fonts/eot/Vazir-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/woff2/Vazir-Medium.woff2') format('woff2'),
+         url('../fonts/woff/Vazir-Medium.woff') format('woff'),
+         url('../fonts/ttf/Vazir-Medium.ttf') format('truetype');
+    font-weight: 500;
+  }
+  
+  @font-face {
+    font-family: Vazir;
+    src: url('../fonts/eot/Vazir-Thin.eot');
+    src: url('../fonts/eot/Vazir-Thin.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/woff2/Vazir-Thin.woff2') format('woff2'),
+         url('../fonts/woff/Vazir-Thin.woff') format('woff'),
+         url('../fonts/ttf/Vazir-Thin.ttf') format('truetype');
+    font-weight: 100;
+  }
+@font-face {
+font-family: aviny;
+src: url('../fonts/aviny.ttf') format('truetype');
+}
+
+body,html{
+	direction: rtl;
+    font-family: 'Vazir', sans-serif;
+	text-align: right;
+}
+body,p{
+	font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6,.faq-box h4,.site-title,.mobile-site-title,.testimonial-author {
+   font-family: 'aviny', sans-serif;
+}
+.info-list li{
+	text-align: right;
+}
+.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9 {
+ float:right
+}
+@media (min-width:768px) {
+ .col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9 {
+  float:right
+ }
+}
+@media (min-width:992px) {
+ .col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9 {
+  float:right
+ }
+}
+@media (min-width:1200px) {
+ .col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9 {
+  float:right
+ }
+}
+.site-nav {
+    float: left;
+}
+.site-title-block {
+    float: right;
+}
+.site-main-menu li {
+    float: right;
+}
+.timeline-item {
+    margin-right: 20px;
+    margin-left: 0px;
+    border-right: 2px solid #2eca7f;
+    border-left: 0px solid #2eca7f;
+}
+.timeline-item::before {
+    left: auto;
+    right: -27px;
+}
+.timeline-item::after {
+    left: auto;
+    right: -27px;
+}
+.timeline {
+    border-right: 2px solid #e0e0e0;
+    border-left: 0px solid #e0e0e0;
+}
+.timeline-item .item-small {
+    margin-right: 5px;
+    padding-right: 8px;
+    border-right: 1px solid #e0e0e0;
+	margin-left: 0px;
+    padding-left: 0px;
+    border-left: 0px solid #e0e0e0;
+}
+.testimonials.owl-carousel .owl-nav .owl-prev:before {
+  content: "\f105";
+}
+
+.testimonials.owl-carousel .owl-nav .owl-next:before {
+  content: "\f104";
+}
+.testimonials.owl-carousel .owl-nav .owl-prev {
+  margin-left: 3px;
+  margin-right: 0px;
+}
+.contact-info-block {
+    text-align: right;
+}
+.ci-text {
+    padding-right: 50px;
+    padding-left: 0px;
+}
+.testimonial-author-info {
+    padding-right: 12px;
+    padding-left: 0px;
+    text-align: right;
+}
+.portfolio-grid figure a div i {
+    left: 20px;
+    right: auto;
+}
+.portfolio-grid figure a div small {
+    right: 20px;
+    left: auto;
+}
+.blog-card .post-date {
+	right: auto;
+    left: 1em;
+}
+blockquote {
+    border-right: 3px solid #2eca7f;
+    border-left: 0px solid #2eca7f;
+}
+.form-group-with-icon i{
+	right:0px;
+	left: auto;
+}
+.form-group-with-icon label {
+    right: 52px;
+	left: auto;
+}
+.form-group-with-icon .form-control {
+    padding-right: 12px;
+    padding-left: 0px;
+}
+.form-control, .form-control:focus, .has-error .form-control, .has-error .form-control:focus{
+	text-align: right;
+}
+.form-group-with-icon {
+    padding-right: 40px;
+    padding-left: 0;
+}
+.mfp-title {
+    text-align: right;
+    padding-left: 36px;
+    padding-right: 0;
+}
+.form-group .help-block {
+    margin: -2px 10px 0 0;
+}
+.form-group .help-block::after {
+    left:auto;
+    right: 5px;
+    border-bottom: 10px solid #f5f5f5;
+    border-right: 0px solid #f5f5f5;
+    border-left: 10px solid transparent;
+}
+@media only screen and (max-width: 991px) {
+  .mobile-logo-container {
+    text-align: right;
+  }
+
+  .mobile-site-title {
+    float: right;
+  }
+}
+.menu-toggle{
+	float: left;
+}
+@media only screen and (max-width: 991px) {
+  .header {
+    right: auto;
+    left: 0;
+  }
+}
+.block-title h3 {
+    font-size: 25px;
+}
+.lm-pricing .lm-pricing-row span {
+    font-size: 26px;
+}
+h4 {
+    font-size: 1.4em;
+}
+h5 {
+    font-size: 1.3em;
+}
+a.lm-demo-panel-switcher.right {
+    left: 0;
+	right: auto;
+    border-left: 0;
+	border-right:1px solid #d5d5d5;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    -webkit-border-top-left-radius: 0px;
+	border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -moz-border-radius-topright: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+    -webkit-border-top-right-radius: 2px;
+}
+.lm-demo-panel.right {
+    left: 0;
+	right: auto;
+    margin-left: -160px;
+	margin-right: 0px;
+    border-left: 0;
+	border-right: 1px solid #d5d5d5;
+}
+#hblog {
+    position: static !important; 
+    left:unset !important;
+    text-align: center;
+}
