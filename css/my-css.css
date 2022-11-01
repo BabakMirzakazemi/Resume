@@ -2,3 +2,22 @@
     font-size: 25px !important;
     letter-spacing: 1px !important;
   }
+  #english_resume {
+    font-family: Arial, Helvetica, sans-serif !important;
+    text-align: center;
+  }
+  .item-title-englsih{
+    font-family: Arial, Helvetica, sans-serif !important;
+    direction: ltr;
+    text-align: justify;
+  }
+  .item-title-englsih p ul {
+    font-family: Arial, Helvetica, sans-serif !important;
+    direction: ltr !important;
+    text-align: justify !important;
+  }
+  .item-title-englsih p ul li{
+    font-family: Arial, Helvetica, sans-serif !important;
+    direction: ltr !important;
+    text-align: justify !important;
+  }
