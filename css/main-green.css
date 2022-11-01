@@ -1055,10 +1055,11 @@ body > footer .copyrights {
 }
 
 .skills-info h4 { 
-  font-size: 0.8em;
+  font-size: 25px;
   line-height: 1.1em;
   position: relative; 
   margin: 0 0 5px;
+  letter-spacing: 1px;
 }
 
 .skill-container {
